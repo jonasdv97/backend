@@ -20,18 +20,12 @@ conda activate testenv
 pip install -r application/requirements.txt
 ```
 
-4. Upgrade wheel/setuptools/pip
-```bash
-pip install --upgrade pip wheel setuptools
-```
+## download weight files
+weights in following link: 
 
-5. Navigate to app/models/blood_cell_identification_model and run:
-
-```bash
-python3 setup.py build_ext --inplace
-```
+1. place 'best_BCCM.pt' under application>model>yolov5>weights
+2. place 'modelfinalfinal.h5' under application>model>classification_model
  
-
 ### Settings IntelliJ: 
 
 1. file => project structure 

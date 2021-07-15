@@ -1,0 +1,688 @@
+2021-01-26 13:23:21,466 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-01-26 13:23:21,466 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-01-26 13:23:21,466 - bloodcount_logger.image_processing_service - DEBUG - tf_model not loaded, loading now
+2021-01-26 13:23:21,466 - bloodcount_logger.blood_cell_detection - INFO - Loading Tensorflow model...
+2021-01-26 13:23:25,772 - bloodcount_logger.blood_cell_detection - INFO - Tensorflow model loaded successfully! in = 4306.1ms
+2021-01-26 13:23:25,773 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-01-26 13:23:25,773 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-01-26 13:23:26,544 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 771.06ms
+2021-01-26 13:23:26,544 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 13:23:26,884 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.95201ms
+2021-01-26 13:23:26,885 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 341.33ms
+2021-01-26 13:23:26,892 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 13:23:28,220 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1328.2ms
+2021-01-26 13:23:28,221 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 13:23:28,221 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-01-26 13:23:28,221 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 6755.1ms
+2021-01-26 15:04:57,972 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-01-26 15:04:57,973 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-01-26 15:04:57,973 - bloodcount_logger.image_processing_service - DEBUG - tf_model not loaded, loading now
+2021-01-26 15:04:57,973 - bloodcount_logger.blood_cell_detection - INFO - Loading Tensorflow model...
+2021-01-26 15:05:02,211 - bloodcount_logger.blood_cell_detection - INFO - Tensorflow model loaded successfully! in = 4237.8ms
+2021-01-26 15:05:02,211 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-01-26 15:05:02,211 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-01-26 15:05:03,151 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 939.92ms
+2021-01-26 15:05:03,151 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:03,551 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.4939ms
+2021-01-26 15:05:03,553 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 402.33ms
+2021-01-26 15:05:03,561 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:04,867 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1306.4ms
+2021-01-26 15:05:04,867 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:04,867 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:04,978 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.85902ms
+2021-01-26 15:05:04,979 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 111.59ms
+2021-01-26 15:05:04,989 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:06,070 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1081.5ms
+2021-01-26 15:05:06,071 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:06,071 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:06,178 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.56124ms
+2021-01-26 15:05:06,180 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 109.07ms
+2021-01-26 15:05:06,190 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:07,232 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1042.4ms
+2021-01-26 15:05:07,233 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:07,233 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:07,358 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.56195ms
+2021-01-26 15:05:07,359 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 126.75ms
+2021-01-26 15:05:07,369 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:08,455 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1086.5ms
+2021-01-26 15:05:08,455 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:08,455 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-01-26 15:05:08,455 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1.0484e+04ms
+2021-01-26 15:05:24,329 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-01-26 15:05:24,332 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-01-26 15:05:24,332 - bloodcount_logger.image_processing_service - DEBUG - tf_model was already loaded
+2021-01-26 15:05:24,332 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model was already loaded
+2021-01-26 15:05:24,332 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:24,466 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.75006ms
+2021-01-26 15:05:24,468 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 136.07ms
+2021-01-26 15:05:24,476 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:25,764 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1287.5ms
+2021-01-26 15:05:25,764 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:25,764 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:25,887 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.96917ms
+2021-01-26 15:05:25,888 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 123.99ms
+2021-01-26 15:05:25,899 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:27,065 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1166.4ms
+2021-01-26 15:05:27,065 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:27,065 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:27,190 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.75388ms
+2021-01-26 15:05:27,192 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 126.17ms
+2021-01-26 15:05:27,203 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:28,399 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1195.6ms
+2021-01-26 15:05:28,399 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:28,399 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:28,526 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.87619ms
+2021-01-26 15:05:28,527 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 127.68ms
+2021-01-26 15:05:28,537 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:29,783 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1245.8ms
+2021-01-26 15:05:29,783 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:29,783 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:29,919 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.3268ms
+2021-01-26 15:05:29,921 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 138.6ms
+2021-01-26 15:05:29,932 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:31,093 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1160.7ms
+2021-01-26 15:05:31,093 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:31,093 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:31,212 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.79608ms
+2021-01-26 15:05:31,213 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 120.06ms
+2021-01-26 15:05:31,223 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:32,428 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1204.5ms
+2021-01-26 15:05:32,428 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:32,428 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:32,545 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.80395ms
+2021-01-26 15:05:32,546 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 117.89ms
+2021-01-26 15:05:32,557 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:33,702 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1145.7ms
+2021-01-26 15:05:33,702 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:33,703 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:33,816 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.3578ms
+2021-01-26 15:05:33,817 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 114.56ms
+2021-01-26 15:05:33,829 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:34,955 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1126.6ms
+2021-01-26 15:05:34,956 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:34,956 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:35,065 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.74911ms
+2021-01-26 15:05:35,067 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 110.73ms
+2021-01-26 15:05:35,077 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:36,156 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1079.4ms
+2021-01-26 15:05:36,156 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:36,157 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-01-26 15:05:36,256 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.82397ms
+2021-01-26 15:05:36,257 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.69284ms
+2021-01-26 15:05:36,258 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 101.64ms
+2021-01-26 15:05:36,267 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-01-26 15:05:37,293 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1025.5ms
+2021-01-26 15:05:37,293 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-01-26 15:05:37,293 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-01-26 15:05:37,293 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1.2964e+04ms
+2021-07-13 16:37:29,710 - bloodcount_logger - INFO - GET DETECTED: 
+2021-07-13 16:53:20,786 - bloodcount_logger - INFO - GET DETECTED: 
+2021-07-13 16:57:14,616 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-13 16:57:14,620 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-13 16:57:14,620 - bloodcount_logger.image_processing_service - DEBUG - tf_model not loaded, loading now
+2021-07-14 08:56:29,013 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 08:56:29,015 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 08:56:29,016 - bloodcount_logger.image_processing_service - DEBUG - tf_model not loaded, loading now
+2021-07-14 09:00:13,745 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 09:00:13,746 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 09:00:13,746 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 09:01:44,397 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 09:01:44,398 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 09:01:44,398 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 09:02:58,371 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 09:02:58,372 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 09:02:58,372 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 09:03:36,428 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 09:03:36,431 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 09:03:36,431 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:10:30,709 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:10:30,721 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:10:30,722 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:11:34,893 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:11:34,896 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:11:34,897 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:12:04,366 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:12:04,369 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:12:04,369 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:16:16,723 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:16:16,726 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:16:16,726 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:17:19,470 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:17:19,473 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:17:19,473 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:18:02,322 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:18:02,327 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:18:02,329 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:20:16,417 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:20:16,418 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:20:16,418 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:25:31,898 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:25:31,898 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:25:31,899 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:25:54,274 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:25:54,274 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:25:54,275 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:27:15,244 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:27:15,245 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:27:15,245 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:27:15,575 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 10:27:15,575 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 10:28:18,894 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:28:18,895 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:28:18,895 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:28:19,169 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 10:28:19,169 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 10:28:20,819 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1650.4ms
+2021-07-14 10:28:20,819 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 10:28:20,820 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 10:28:20,820 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 10:28:20,820 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1926.5ms
+2021-07-14 10:28:41,694 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:28:41,695 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:28:41,695 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:28:41,934 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 10:28:41,934 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 10:32:22,193 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:32:22,194 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:32:22,194 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:32:22,408 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 10:32:22,408 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 10:32:23,272 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 863.37ms
+2021-07-14 10:32:23,272 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 10:32:23,272 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 10:32:23,272 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 10:32:23,272 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1078.8ms
+2021-07-14 10:32:32,258 - bloodcount_logger - INFO - GET DETECTED: 
+2021-07-14 10:34:35,308 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 10:34:35,308 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 10:34:35,308 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 10:34:35,524 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 10:34:35,524 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 10:34:36,660 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1136.5ms
+2021-07-14 10:34:36,660 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 10:34:36,660 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 10:34:36,660 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 10:34:36,660 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1352.1ms
+2021-07-14 12:04:52,954 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:04:52,955 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:04:52,955 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:04:53,438 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 12:04:53,438 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 12:04:54,717 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1279.1ms
+2021-07-14 12:04:54,719 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:04:54,719 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 12:04:54,720 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:04:54,720 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 12:04:54,720 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 12:04:54,721 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1767.1ms
+2021-07-14 12:05:40,575 - bloodcount_logger - INFO - GET DETECTED: 
+2021-07-14 12:14:38,571 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:14:38,572 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:14:38,572 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:14:39,002 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 12:14:39,002 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 12:14:40,305 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1302.9ms
+2021-07-14 12:14:40,305 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:14:40,306 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 12:14:40,306 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:14:40,306 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 12:14:40,306 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 12:14:40,306 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1734.4ms
+2021-07-14 12:40:29,113 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:40:29,121 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:40:29,122 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:43:37,889 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:43:37,892 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:43:37,893 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:46:34,496 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:46:34,499 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:46:34,499 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:49:07,619 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:49:07,622 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:49:07,622 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:50:27,977 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:50:27,980 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:50:27,980 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:51:22,171 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:51:22,177 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:51:22,178 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:51:23,096 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 12:51:23,097 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 12:51:26,504 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 3405.3ms
+2021-07-14 12:51:26,504 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:51:26,505 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 12:51:26,505 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:51:26,505 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 12:51:26,506 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 12:51:26,506 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 4334.4ms
+2021-07-14 12:55:40,713 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:55:40,717 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:55:40,717 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:55:41,377 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 12:55:41,378 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 12:55:43,761 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2383.6ms
+2021-07-14 12:55:43,762 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:55:43,803 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 12:55:43,804 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:55:43,817 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 12:55:43,819 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 12:55:43,819 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 3105.7ms
+2021-07-14 12:56:25,127 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:56:25,129 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:56:25,129 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:56:25,800 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 12:56:25,800 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 12:56:28,394 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2593.8ms
+2021-07-14 12:56:28,395 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:56:28,407 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 12:56:28,407 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:56:28,418 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 12:56:28,418 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 12:56:28,418 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 3291.3ms
+2021-07-14 12:57:59,830 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 12:57:59,833 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 12:57:59,834 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 12:58:00,543 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 12:58:00,543 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 12:58:03,362 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2819.1ms
+2021-07-14 12:58:03,365 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:58:03,387 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 12:58:03,389 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 12:58:03,408 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 12:58:03,409 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 12:58:03,409 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 3578.3ms
+2021-07-14 13:36:04,418 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:36:04,420 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:36:04,420 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:36:04,982 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:36:04,983 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:36:08,597 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 3613.7ms
+2021-07-14 13:36:08,597 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:36:08,731 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 13:36:08,732 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:36:08,748 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 13:36:08,749 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 13:36:08,749 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 4330.8ms
+2021-07-14 13:37:22,309 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:37:22,311 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:37:22,311 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:37:23,222 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:37:23,222 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:37:25,067 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1845.0ms
+2021-07-14 13:37:25,067 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:37:25,101 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 13:37:25,101 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:37:25,107 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 13:37:25,107 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 13:37:25,108 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 2799.0ms
+2021-07-14 13:38:34,946 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:38:34,949 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:38:34,950 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:38:35,539 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:38:35,539 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:38:37,435 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1896.3ms
+2021-07-14 13:38:37,435 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:38:37,454 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 13:38:37,454 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:38:37,465 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 13:38:37,465 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 13:38:37,465 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 2518.5ms
+2021-07-14 13:39:32,220 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:39:32,226 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:39:32,226 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:39:33,020 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:39:33,020 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:39:35,969 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2948.7ms
+2021-07-14 13:39:35,969 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:39:35,980 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 13:39:35,980 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:39:35,988 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 13:39:35,988 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 13:39:35,988 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 3767.7ms
+2021-07-14 13:41:10,579 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:41:10,586 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:41:10,586 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:41:11,211 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:41:11,211 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:41:13,410 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2198.9ms
+2021-07-14 13:41:13,410 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:41:13,413 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: new_pic
+2021-07-14 13:41:13,413 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:41:13,417 - bloodcount_logger.image_processing_service - ERROR - an error occured while processing pic: another
+2021-07-14 13:41:13,417 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 13:41:13,417 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 2837.4ms
+2021-07-14 13:43:12,157 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:43:12,161 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:43:12,161 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:43:12,886 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:43:12,887 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:43:14,703 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1815.8ms
+2021-07-14 13:43:14,703 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:50:38,329 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:50:38,329 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:50:38,334 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:50:39,079 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:50:39,079 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:50:41,762 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2682.8ms
+2021-07-14 13:50:41,762 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 13:52:41,279 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 13:52:41,282 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 13:52:41,282 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 13:52:42,028 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 13:52:42,028 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 13:52:44,490 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2461.8ms
+2021-07-14 13:52:44,491 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 14:06:56,144 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 14:06:56,146 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 14:06:56,148 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 14:06:57,064 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 14:06:57,065 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 14:06:59,852 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2787.5ms
+2021-07-14 14:06:59,852 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 14:07:59,915 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 14:07:59,919 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 14:07:59,920 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 14:08:00,388 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 14:08:00,388 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 14:08:02,633 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2244.2ms
+2021-07-14 14:08:02,633 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 14:12:23,538 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 14:12:23,541 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 14:12:23,542 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 14:12:24,314 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 14:12:24,314 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 14:12:26,546 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2232.5ms
+2021-07-14 14:12:26,547 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 14:25:59,188 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 14:25:59,195 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 14:25:59,195 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 14:25:59,989 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 14:25:59,989 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 14:26:01,997 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2007.3ms
+2021-07-14 14:26:01,997 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 14:27:49,139 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 14:27:49,144 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 14:27:49,145 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 14:27:49,818 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 14:27:49,818 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 14:27:51,492 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1674.1ms
+2021-07-14 14:27:51,492 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:11:22,464 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:11:22,466 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:11:22,466 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 15:11:23,390 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 15:11:23,391 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 15:11:26,461 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 3070.3ms
+2021-07-14 15:11:26,461 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:13:16,686 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:13:16,690 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:13:16,690 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 15:13:17,432 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 15:13:17,432 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 15:13:20,284 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2851.7ms
+2021-07-14 15:13:20,285 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:14:17,401 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:14:17,403 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:14:17,404 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 15:14:18,052 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 15:14:18,052 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 15:14:21,127 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 3075.1ms
+2021-07-14 15:14:21,127 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:21:43,365 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:21:43,366 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:21:43,367 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 15:21:44,091 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 15:21:44,091 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 15:21:45,864 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1772.8ms
+2021-07-14 15:21:45,865 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:24:24,418 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:24:24,418 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:24:24,418 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 15:24:25,221 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 15:24:25,221 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 15:24:26,968 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1746.6ms
+2021-07-14 15:24:26,968 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:26:20,017 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:26:20,020 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:26:20,020 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 15:26:20,627 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 15:26:20,627 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 15:26:22,714 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2086.6ms
+2021-07-14 15:26:22,715 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:26:23,571 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 6.65ms
+2021-07-14 15:26:23,587 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 872.61ms
+2021-07-14 15:30:47,365 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:30:47,367 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:30:47,367 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-14 15:30:47,812 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-14 15:30:47,812 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-14 15:30:49,626 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1813.6ms
+2021-07-14 15:30:49,626 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:30:50,438 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.0ms
+2021-07-14 15:30:50,438 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 812.25ms
+2021-07-14 15:30:50,455 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:30:52,639 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2181.7ms
+2021-07-14 15:30:52,644 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:30:53,481 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 6.5067ms
+2021-07-14 15:30:53,484 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 839.87ms
+2021-07-14 15:30:53,501 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:30:55,642 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2141.3ms
+2021-07-14 15:30:55,642 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-14 15:30:55,642 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:30:56,153 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.5766ms
+2021-07-14 15:30:56,155 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 512.94ms
+2021-07-14 15:30:56,169 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:30:58,121 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1953.0ms
+2021-07-14 15:30:58,121 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:30:58,618 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.7452ms
+2021-07-14 15:30:58,620 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 499.38ms
+2021-07-14 15:30:58,635 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:31:00,494 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1858.6ms
+2021-07-14 15:31:00,494 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-14 15:31:00,494 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 15:31:00,496 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1.313e+04ms
+2021-07-14 15:31:25,269 - bloodcount_logger - INFO - GET DETECTED: 
+2021-07-14 15:31:41,390 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-14 15:31:41,390 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-14 15:31:41,390 - bloodcount_logger.image_processing_service - DEBUG - tf_model was already loaded
+2021-07-14 15:31:41,390 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model was already loaded
+2021-07-14 15:31:41,394 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:31:42,180 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 0.0ms
+2021-07-14 15:31:42,185 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 788.37ms
+2021-07-14 15:31:42,198 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:31:44,261 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2063.4ms
+2021-07-14 15:31:44,262 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:31:44,777 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.0807ms
+2021-07-14 15:31:44,777 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 515.18ms
+2021-07-14 15:31:44,793 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:31:46,802 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2008.8ms
+2021-07-14 15:31:46,802 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-14 15:31:46,802 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:31:47,367 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 3.1166ms
+2021-07-14 15:31:47,371 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 569.06ms
+2021-07-14 15:31:47,385 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:31:49,460 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2074.5ms
+2021-07-14 15:31:49,460 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-14 15:31:49,985 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.6309ms
+2021-07-14 15:31:49,989 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 528.81ms
+2021-07-14 15:31:50,003 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-14 15:31:52,028 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2024.8ms
+2021-07-14 15:31:52,028 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-14 15:31:52,028 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-14 15:31:52,028 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1.0639e+04ms
+2021-07-15 10:50:14,062 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 10:50:14,064 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 10:50:14,064 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-15 10:50:14,635 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-15 10:50:14,635 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-15 10:50:15,860 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1224.9ms
+2021-07-15 10:50:15,860 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:16,359 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 4.9961ms
+2021-07-15 10:50:16,363 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 502.42ms
+2021-07-15 10:50:16,369 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:18,909 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2537.9ms
+2021-07-15 10:50:18,913 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:19,461 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 6.0005ms
+2021-07-15 10:50:19,467 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 554.55ms
+2021-07-15 10:50:19,474 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:21,297 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1822.5ms
+2021-07-15 10:50:21,297 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 10:50:21,297 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:21,678 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.9996ms
+2021-07-15 10:50:21,681 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 384.65ms
+2021-07-15 10:50:21,691 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:23,791 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2097.8ms
+2021-07-15 10:50:23,796 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:24,331 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 4.0007ms
+2021-07-15 10:50:24,337 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 541.18ms
+2021-07-15 10:50:24,345 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:26,488 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2142.4ms
+2021-07-15 10:50:26,489 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 10:50:26,489 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:26,861 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.6727ms
+2021-07-15 10:50:26,875 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 385.87ms
+2021-07-15 10:50:26,883 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:28,843 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1959.0ms
+2021-07-15 10:50:28,844 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:29,200 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.9982ms
+2021-07-15 10:50:29,204 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 360.59ms
+2021-07-15 10:50:29,214 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:30,703 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1488.9ms
+2021-07-15 10:50:30,703 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 10:50:30,703 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:31,085 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.0013ms
+2021-07-15 10:50:31,087 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 384.59ms
+2021-07-15 10:50:31,095 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:32,545 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1450.1ms
+2021-07-15 10:50:32,545 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:50:32,874 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.0006ms
+2021-07-15 10:50:32,876 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 331.45ms
+2021-07-15 10:50:32,883 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:50:34,288 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1404.3ms
+2021-07-15 10:50:34,288 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 10:50:34,288 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-15 10:50:34,289 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 2.0227e+04ms
+2021-07-15 10:51:39,461 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 10:51:39,462 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 10:51:39,462 - bloodcount_logger.image_processing_service - DEBUG - tf_model was already loaded
+2021-07-15 10:51:39,462 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model was already loaded
+2021-07-15 10:51:39,463 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:51:39,786 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.0013ms
+2021-07-15 10:51:39,787 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 324.02ms
+2021-07-15 10:51:39,794 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:51:41,287 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1490.0ms
+2021-07-15 10:51:41,292 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:51:41,849 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 4.0002ms
+2021-07-15 10:51:41,850 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 558.07ms
+2021-07-15 10:51:41,857 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:51:43,310 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1451.0ms
+2021-07-15 10:51:43,314 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 10:51:43,315 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-15 10:51:43,315 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 3854.1ms
+2021-07-15 10:52:06,158 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 10:52:06,159 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 10:52:06,159 - bloodcount_logger.image_processing_service - DEBUG - tf_model was already loaded
+2021-07-15 10:52:06,159 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model was already loaded
+2021-07-15 10:52:06,159 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:52:06,656 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 4.0002ms
+2021-07-15 10:52:06,661 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.0021ms
+2021-07-15 10:52:06,663 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 504.19ms
+2021-07-15 10:52:06,671 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:52:08,049 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1378.0ms
+2021-07-15 10:52:08,050 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 10:52:08,370 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.0018ms
+2021-07-15 10:52:08,372 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.0011ms
+2021-07-15 10:52:08,374 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 324.0ms
+2021-07-15 10:52:08,382 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 10:52:09,710 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1328.0ms
+2021-07-15 10:52:09,710 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 10:52:09,710 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-15 10:52:09,710 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 3552.2ms
+2021-07-15 11:33:59,275 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 11:33:59,275 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 11:37:23,879 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 11:37:23,880 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 11:38:23,131 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 11:38:23,136 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 11:38:23,137 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-15 11:38:24,058 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-15 11:38:24,058 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-15 11:38:26,248 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 2189.9ms
+2021-07-15 11:38:26,248 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 11:38:27,038 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 5.717ms
+2021-07-15 11:38:27,044 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.0294ms
+2021-07-15 11:38:27,048 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 799.72ms
+2021-07-15 11:38:27,062 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 11:38:29,337 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2275.0ms
+2021-07-15 11:38:29,337 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 11:38:29,337 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 11:38:29,917 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.5798ms
+2021-07-15 11:38:29,917 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 580.13ms
+2021-07-15 11:38:29,935 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 11:38:32,029 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2093.4ms
+2021-07-15 11:38:32,029 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 11:38:32,029 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-15 11:38:32,029 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 8897.5ms
+2021-07-15 12:01:26,849 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 12:01:26,852 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 12:01:26,852 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-15 12:01:27,738 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-15 12:01:27,740 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-15 12:01:31,061 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 3320.8ms
+2021-07-15 12:01:31,061 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 12:01:31,885 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 3.1276ms
+2021-07-15 12:01:31,890 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 4.0636ms
+2021-07-15 12:01:31,895 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 833.17ms
+2021-07-15 12:01:31,909 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 12:01:36,279 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 4370.1ms
+2021-07-15 12:01:36,279 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 12:01:36,280 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 12:01:36,812 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.0084ms
+2021-07-15 12:01:36,819 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 538.83ms
+2021-07-15 12:01:36,835 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 12:01:38,967 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2131.5ms
+2021-07-15 12:01:38,968 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 12:01:38,968 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-15 12:01:38,968 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1.2119e+04ms
+2021-07-15 12:04:49,645 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 12:04:49,647 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 12:04:49,647 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-15 12:04:50,405 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-15 12:04:50,406 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-15 12:04:52,226 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 1820.2ms
+2021-07-15 12:04:52,227 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 12:04:52,772 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 3.0038ms
+2021-07-15 12:04:52,776 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 1.9996ms
+2021-07-15 12:04:52,779 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 551.69ms
+2021-07-15 12:04:52,789 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 12:04:57,199 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 4409.4ms
+2021-07-15 12:04:57,200 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 12:04:57,200 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 12:04:58,077 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 8.0025ms
+2021-07-15 12:04:58,088 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 887.24ms
+2021-07-15 12:04:58,106 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 12:05:00,036 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 1930.1ms
+2021-07-15 12:05:00,036 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 12:05:00,036 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-15 12:05:00,037 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1.0392e+04ms
+2021-07-15 16:57:18,606 - bloodcount_logger - INFO - POST REQUEST STARTED: 
+2021-07-15 16:57:18,608 - bloodcount_logger - INFO - Correctly parsed data from JSON, invoking process_images_from_web_request
+2021-07-15 16:57:18,609 - bloodcount_logger.image_processing_service - DEBUG - object_detection_model not loaded, loading now
+2021-07-15 16:57:19,935 - bloodcount_logger.image_processing_service - DEBUG - bloodcount_model not loaded, loading now
+2021-07-15 16:57:19,937 - bloodcount_logger.classification - INFO - Loading Classification model...
+2021-07-15 16:57:23,113 - bloodcount_logger.classification - INFO - Loading Classification model complete in = 3176.0ms
+2021-07-15 16:57:23,113 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 16:57:23,883 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 7.798ms
+2021-07-15 16:57:23,891 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 2.0022ms
+2021-07-15 16:57:23,897 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 782.78ms
+2021-07-15 16:57:23,912 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 16:57:30,385 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 6470.1ms
+2021-07-15 16:57:30,394 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 16:57:30,398 - bloodcount_logger.blood_cell_detection - INFO - Invoked blood_cell_count
+2021-07-15 16:57:31,660 - bloodcount_logger.blood_cell_detection - INFO - Cut_wbc function = 9.1569ms
+2021-07-15 16:57:31,672 - bloodcount_logger.blood_cell_detection - INFO - End blood_cell_count - Time to process Annotated + cut image = 1274.7ms
+2021-07-15 16:57:31,689 - bloodcount_logger.classification - INFO - invoked get_classification_for_single_image
+2021-07-15 16:57:33,757 - bloodcount_logger.classification - INFO - get_classification_for_single_image complete in = 2068.2ms
+2021-07-15 16:57:33,758 - bloodcount_logger.image_processing_service - INFO - Photo successfully parsed, added to response-list
+2021-07-15 16:57:33,758 - bloodcount_logger.image_processing_service - INFO - Parsing images done, returning response-list
+2021-07-15 16:57:33,760 - bloodcount_logger - INFO - POST REQUEST COMPLETED IN: 1.5154e+04ms
